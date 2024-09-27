@@ -23,7 +23,7 @@ app.config['SECRET_KEY'] = str(secrets_key)
 api = Api(app, version='1.0', title='Sistema de Gestão Escolar', description='Documentação com Swagger para a API da ACADEMICUM')
 
 # Configurações do banco de dados PostgreSQL
-DATABASE_URL = "dbname='academicum' user='postgres' password='postgres' host='localhost'"
+DATABASE_URL = "dbname='condoflow_teste' user='postgres' password='Angola2023#' host='95.216.215.24'"
 
 # Função para conectar ao banco
 def connect_db():
